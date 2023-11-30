@@ -1,0 +1,111 @@
+﻿@page
+@model staj_uygulama.Pages.Urunler.CreateModel
+@{
+    ViewData["Title"] = "Ekle";
+}
+<script src="~/js/site.js"></script>
+
+<br />
+<h2>Yeni Ürün</h2>
+
+@if(Model.errorMessage.Length > 0){
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if(Model.yönlendirmeMessage.Length > 0){
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        <strong>@Model.yönlendirmeMessage</strong>
+        <br />
+        <a class="btn btn-primary btn-sm" href="/Urunler/Edit?id=@Model.yönlendirmeid">Güncelle</a>
+    </div>
+}
+
+<form method="post">
+    <div class="card container-fluid" style="margin-top:5%; padding:1%; width:70%">
+        <div class="card-body">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Ürün Adı :</span>
+                <input type="text" class="form-control" placeholder="Ürün adını giriniz..." id="name" name="name"/>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Ürün meyve mi:</span>
+                <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="checkbox" value="" id="checkbox1" aria-label="Gireceğiniz ürün meyve ise tıklayınız." />
+                </div>
+
+                <span class="input-group-text">Ürün çekirdekli mi:</span>
+                <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="checkbox" value="" id="checkbox2" aria-label="Gireceğiniz ürün çekirdekli ise tıklayınız." />
+                </div>
+
+                <button class="btn btn-secondary" type="button" id="kodBtn" onclick="kodOlustur()">Kod oluştur.</button>
+
+                <span class="input-group-text">Ürün Kodu:</span>
+                <input type="text" class="form-control" placeholder="Ürün kodu oluşturulacak..." id="code" name="code" readonly />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Ürün Resmi :</span>
+                <input type="file" class="form-control" placeholder="Ürün resmini seçiniz..." name="picture" accept=".jpg,.png,.jpeg"/>
+            </div>
+            @*Resim internetten veya masaüstünden seçilebilsin.*@
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon4">Ürün Miktarı :</span>
+                <input type="text" class="form-control" placeholder="Ürün miktarını giriniz..." name="amount"/>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon5">Ürün Birim :</span>
+                <select class="form-select" name="unit">
+                    <option value="0">Select</option>
+                    <option value="ADET">ADET</option>
+                    <option value="KG">KG</option>
+                </select>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#showModal">Ekle</button>
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+
+    @if(Model.successMessage.Length > 0){
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>@Model.successMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    }
+
+    <div class="modal" id="showModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fa-regular fa-circle-question" style="color: #217339;"></i>
+                    <h5 class="container-fluid">Bilgileri girilen ürün eklensin mi?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Girdiğiniz değerleri eklemeyi onaylıyorsanız 'onayla' butonuna tıklayınız.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kapat</button>
+                    <button type="submit" class="btn btn-success">Onayla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>

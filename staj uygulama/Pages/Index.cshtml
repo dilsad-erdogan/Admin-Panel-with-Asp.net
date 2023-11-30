@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Ürünler";
+    UrunlerInfo urunlerInfo = new UrunlerInfo();
+}
+
+<br />
+<h2>Ürünler</h2>
+<br />
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            @foreach (var urun in Model.listUrunler)
+            {
+                <div class="card" style="width:22%; padding: 1%; margin: 1.5%">
+                    <img src="@urun.picture" style="width:80%; height:80%;" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <div class="row">
+                            <h4 class="card-title">@urun.name</h4>
+                            <div class="justify-content-md-end" style="color:lightslategray">@urun.code</div>
+                        </div>
+                        <p style="color:lightslategray">Ürün stok durumu: @urun.amount</p>
+                        @if(Int32.Parse(urun.amount) < 20){
+                            <p class="justify-content-md-end" style="color:indianred">Ürünün stok durumu risk altındadır.</p>
+                        }
+                        <p style="color:lightslategray">Ürünün satış birimi: @urun.unit</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

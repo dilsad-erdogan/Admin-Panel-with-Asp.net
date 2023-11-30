@@ -1,0 +1,24 @@
+﻿@page
+@model staj_uygulama.Pages.Urunler.Index1Model
+@{
+    ViewData["Title"] = "Sil";
+}
+
+<form method="post">
+    <div class="card container-fluid" style="margin-top:5%; padding:1%; accent-color:70%;">
+        <div class="card-header">
+            <div class="row">
+                <h5 class="container-fluid text-center">Seçilen değer silinsin mi?</h5>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <p>ID değeri @Request.Query["id"] olan ürünün silineceğini onaylıyorsanız 'onayla' butonuna basınız.</p>
+        </div>
+
+        <div class="card-footer">
+            <a type="button" class="btn btn-danger" href="/Urunler/Index">Kapat</a>
+            <button type="submit" class="btn btn-success">Onayla</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,124 @@
+﻿@page
+@model staj_uygulama.Pages.Urunler.EditModel
+
+@*@using staj_uygulama.Pages.Urunler
+@{
+    UnitList Liste = new UnitList();
+    List<string> list = Liste.unitList;
+}*@
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<script src="~/js/site.js"></script>
+
+<br />
+<h2>Güncelle Ürün</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<form method="post">
+
+    <div class="card container-fluid" style="margin-top:5%; padding:1%; width:70%">
+        <div class="card-body">
+
+            <img src="@Model.urunlerInfoGet.picture" style="width:20%; height:20%;" name="picture" class="card-img-top d-flex justify-content-center" alt="Image">
+            <input type="file" name="picture" id="picture" style="display: none;" value="@Model.urunlerInfoGet.picture" />
+            <button type="button" style="margin-top:5px;" class="btn btn-primary" onclick="document.getElementById('picture').click();">Fotoğrafı değiştir</button>
+
+            <div class="input-group mb-3" style="margin-top:20px;">
+                <span class="input-group-text" id="basic-addon1">Ürün Adı :</span>
+                <input type="text" class="form-control" placeholder="Ürün adını giriniz..." name="name" value="@Model.urunlerInfoGet.name" id="name" />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Ürün Kodu:</span>
+                <input type="text" class="form-control" placeholder="Ürün kodu oluşturulacak..." value="@Model.urunlerInfoGet.code" id="code" name="code" readonly />
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="rb" id="rb1"/>
+                    <label class="form-check-label">Stok üzerine ekle</label>
+                </div>
+
+                <div class="form-check" style="margin-left:10px;">
+                    <input class="form-check-input" type="radio" name="rb" id="rb2"/>
+                    <label class="form-check-label">Yeni stok</label>
+                </div>
+
+                <span class="input-group-text" style="margin-left:2px;">Ürün Miktarı :</span>
+                <input type="text" class="form-control" placeholder="Ürün miktarını giriniz..." name="amount" value="@Model.urunlerInfoGet.amount" />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Ürün Birim :</span>
+                <select class="form-select" name="unit">
+                    <option value="0">Select</option>
+                    <option value="ADET">ADET</option>
+                    <option value="KG">KG</option>
+                </select>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary" type="button" onclick="seciliMi()" data-bs-toggle="modal" data-bs-target="#showModal">Güncelle</button>
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+
+    @if (Model.successMessage.Length > 0)
+    {
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@Model.successMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    }
+
+    <div class="modal" id="showModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fa-regular fa-circle-question" style="color: #217339;"></i>
+                    <h5 class="container-fluid">Bilgiler güncellensin mi?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Değiştirilen bilgilerin onaylanmasını istiyorsanız 'onayla' butonuna basınız.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kapat</button>
+                    <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#eklenecekModal">Onayla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<script>
+    function seciliMi(){
+        if(document.getElementById("rb1").checked == true){
+            document.getElementById("rb1").value = "secili1";
+            console.log(document.getElementById("rb1").value);
+        }
+
+        if(document.getElementById("rb2").checked == true){
+            document.getElementById("rb2").value = "secili2";
+            console.log(document.getElementById("rb2").value);
+        }
+    }
+</script>

@@ -1,0 +1,66 @@
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\appsettings.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.staticwebassets.runtime.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.exe
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.deps.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.runtimeconfig.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.pdb
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.csproj.AssemblyReference.cache
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.AssemblyInfoInputs.cache
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.AssemblyInfo.cs
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.csproj.CoreCompileInputs.cache
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.RazorAssemblyInfo.cache
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.RazorAssemblyInfo.cs
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\scopedcss\bundle\staj uygulama.styles.css
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\scopedcss\projectbundle\staj uygulama.bundle.scp.css
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.csproj.CopyComplete
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\refint\staj uygulama.dll
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.pdb
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.genruntimeconfig.cache
+C:\Users\dlsd\Desktop\denemestarbuc\stajuygulama\staj uygulama2\staj uygulama\staj uygulama\obj\Debug\net6.0\ref\staj uygulama.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\appsettings.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.staticwebassets.runtime.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.exe
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.deps.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.runtimeconfig.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\staj uygulama.pdb
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.csproj.AssemblyReference.cache
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.AssemblyInfoInputs.cache
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.AssemblyInfo.cs
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.csproj.CoreCompileInputs.cache
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.RazorAssemblyInfo.cache
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.RazorAssemblyInfo.cs
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\scopedcss\bundle\staj uygulama.styles.css
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\scopedcss\projectbundle\staj uygulama.bundle.scp.css
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.csproj.CopyComplete
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\refint\staj uygulama.dll
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.pdb
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\staj uygulama.genruntimeconfig.cache
+C:\Users\dlsd\Desktop\staj uygulama\staj uygulama\obj\Debug\net6.0\ref\staj uygulama.dll

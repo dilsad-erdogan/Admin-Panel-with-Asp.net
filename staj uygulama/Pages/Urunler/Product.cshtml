@@ -1,0 +1,39 @@
+﻿@page
+@model staj_uygulama.Pages.Urunler.IndexModel
+@{
+    ViewData["Title"] = "Ürünler Tablo";
+}
+<br />
+<h2>Ürünler Listesi</h2>
+<a class="btn btn-primary" href='/Urunler/Create'>Yeni Ürün</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ürün ID</th>
+            <th>Ürün Adı</th>
+            <th>Ürün Kodu</th>
+            <th>Ürün Resim</th>
+            <th>Ürün Miktarı</th>
+            <th>Ürün Birim</th>
+            <th>Aksiyonlar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var urun in Model.listUrunler)
+        {
+            <tr>
+                <td>@urun.id</td>
+                <td>@urun.name</td>
+                <td>@urun.code</td>
+                <td>@urun.picture</td>
+                <td>@urun.amount</td>
+                <td>@urun.unit</td>
+                <td>
+                    <a class="btn btn-success btn-sm" href="/Urunler/Edit?id=@urun.id">Güncelle</a>
+                    <a class="btn btn-danger btn-sm" href="/Urunler/Delete?id=@urun.id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
